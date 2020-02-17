@@ -1,0 +1,30 @@
+{
+  "name": "new-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pihorb/new-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pihorb/new-app/issues"
+  },
+  "homepage": "https://github.com/pihorb/new-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
