@@ -1,9 +1,10 @@
 import React from 'react';
+import DrumMachine from './components/drum-machine'
 
 class App extends React.Component {
     render() {
       return (
-        <h1>Hello World</h1>
+        <DrumMachine></DrumMachine>
       )
     }
 }
