@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node server/index.js",
-    "concurrently": "concurrently \"cd client && npm run start\" \"npm run start\" ",
+    "server": "nodemon --exec babel-node server/index.js",
+    "start": "concurrently \"cd client && npm run start\" \"npm run start\" ",
     "dev": "cd client && npm run start"
   },
   "repository": {
