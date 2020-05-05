@@ -25,6 +25,7 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "acorn": "^7.1.1",
     "concurrently": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
